@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div h2{
+        background-color: aqua;
+    }
+    div>nav{
+        background-color: rgb(89, 193, 19);
+    }
+    div+p{
+        background-color: blue;
+    }
+    div~p{
+        background-color: blueviolet;
+    }
+    th,td,tr{
+        border: 2px solid;
+        border-collapse: collapse;
+    }
+    tr:nth-child(odd) {background-color: red;}
+    .heighlight{
+        color: green;
+    }
+
+</style>
+<body>
+    <div>
+        <section>
+            <article>
+                <h2>Desenteant Selector</h2>
+
+                But for scientists, a theory has nearly the opposite meaning. A theory is a
+             well-substantiated explanation of an aspect of the natural world that can incorporate 
+             laws, hypotheses and facts.
+            </article>
+        </section>
+        <nav>
+            <li><b>child Selector</b></li>
+            <li><b>child Selector2</b></li>
+        </nav>
+        <p><i>But for scientists, a theory has nearly the opposite meaning. A theory is a
+             well-substantiated explanation of an aspect of the natural world that can incorporate 
+             laws, hypotheses and facts.<i>
+         </p>
+         <h5>general sibling selector</h5>
+            <li class="heighlight">general sibling selector</li>
+         <p><a href= "https://www.google.com/business/?ppsrc=GPDA2"  target="myIframe">Secure  </a></p>
+         <table>
+            <tr>
+                <td>1</td>
+                <td>one</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>two</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>three</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>four</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>five</td>
+            </tr>
+         </table>
+
+</body>
+</html>
